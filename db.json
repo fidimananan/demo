@@ -1,14 +1,167 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "access_tokens": {
+	  "access_token": "WSXkNbLuKGh2lVDCKgCJdXHlWLfi4uIpOOp0aMlB",
+	  "token_type": "Bearer",
+	  "expires_in": 5400
+   },
+  "contacts": {
+	  "data": [
+		{
+		  "id": 1570,
+		  "user_id": 101,
+		  "enterprise_id": 8,
+		  "state": 8,
+		  "external_id": null,
+		  "email": "example@example.com",
+		  "phone_number": "0477000000",
+		  "profile_picture": 11,
+		  "created_at": "2018-10-10T10:00:00+00:00",
+		  "updated_at": "2018-10-10T10:00:00+00:00",
+		  "roles": {
+			"contact": {
+			  "id": 1570,
+			  "is_active": true,
+			  "function": "Sales",
+			  "introduction": "No introduction required",
+			  "video_url": "https://www.videoservice.url/room",
+			  "default_week_template_id": 1,
+			  "created_at": "2018-10-10T10:00:00+00:00",
+			  "updated_at": "2018-10-10T10:00:00+00:00"
+			}
+		  }
+		},
+		{
+		  "id": 1571,
+		  "user_id": 103,
+		  "enterprise_id": 8,
+		  "state": 8,
+		  "external_id": null,
+		  "email": "agent@example.com",
+		  "phone_number": null,
+		  "profile_picture": 9,
+		  "created_at": "2018-10-10T10:00:00+00:00",
+		  "updated_at": "2018-10-10T10:00:00+00:00",
+		  "roles": {
+			"contact": {
+			  "id": 1571,
+			  "is_active": true,
+			  "function": "Assistant to the Regional Manager",
+			  "introduction": null,
+			  "default_week_template_id": 3,
+			  "created_at": "2018-10-10T10:00:00+00:00",
+			  "updated_at": "2018-10-10T10:00:00+00:00"
+			}
+		  }
+		}
+	  ],
+	  "warnings": [],
+	  "meta": []
+	},
+  "subjects": {
+	  "data": [
+		{
+		  "id": 296,
+		  "enterprise_id": 8,
+		  "category_id": 27,
+		  "external_id": null,
+		  "is_active": true,
+		  "title": "Building Swings",
+		  "order": 0,
+		  "description": "Let us figure out how to build your swings",
+		  "instructions": "Instructions for this subject",
+		  "estimated_time": 240,
+		  "time_slot_granularity": null,
+		  "is_default": false,
+		  "is_shortlist": true,
+		  "auto_accept": true,
+		  "timezone": null,
+		  "created_at": "2018-10-10T10:00:00+00:00",
+		  "languages": null
+		},
+		{
+		  "id": 302,
+		  "enterprise_id": 8,
+		  "category_id": 145,
+		  "external_id": null,
+		  "is_active": true,
+		  "title": "Another subject",
+		  "order": 0,
+		  "description": "Description for this subject",
+		  "instructions": null,
+		  "estimated_time": 60,
+		  "time_slot_granularity": null,
+		  "is_default": false,
+		  "is_shortlist": true,
+		  "auto_accept": true,
+		  "timezone": null,
+		  "created_at": "2018-10-10T10:00:00+00:00",
+		  "languages": null
+		}
+	  ],
+	  "warnings": [],
+	  "meta": {
+		"languages": {
+		  "296": "nl",
+		  "302": "nl"
+		}
+	  }
+		},
+	"offices":	{
+  "data": [
+    {
+      "id": 1299,
+      "enterprise_id": 8,
+      "external_id": null,
+      "is_active": true,
+      "is_virtual": false,
+      "uses_independent_contacts": false,
+      "title": "Office 1",
+      "description": null,
+      "directions": null,
+      "parking_info": null,
+      "phone_number": "0471450170",
+      "email": "example@example.com",
+      "timezone": "Europe/Brussels",
+      "created_at": "2018-10-10T10:00:00+00:00",
+      "updated_at": "2018-10-10T10:00:00+00:00",
+      "location": {
+        "street_1": "Zuiderlaan 3",
+        "street_2": "1",
+        "postal_code": "9000",
+        "city": "Ghent",
+        "state": "East-Flanders",
+        "country": "BE",
+        "geolocation": "51.0479466;3.6934135"
+      }
+    },
+    {
+      "id": 1313,
+      "enterprise_id": 8,
+      "external_id": null,
+      "is_active": true,
+      "is_virtual": false,
+      "uses_independent_contacts": false,
+      "title": "Remote office",
+      "description": null,
+      "directions": null,
+      "parking_info": null,
+      "phone_number": null,
+      "email": null,
+      "timezone": "Europe/Brussels",
+      "created_at": "2018-10-10T10:00:00+00:00",
+      "updated_at": "2018-10-10T10:00:00+00:00",
+      "location": {
+        "street_1": "5-9 Rue des Tribunaux",
+        "street_2": null,
+        "postal_code": "50100",
+        "city": "Cherbourg-Octeville",
+        "state": null,
+        "country": "FR",
+        "geolocation": "49.6379465;-1.6216174"
+      }
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "warnings": [],
+  "meta": []
+}
 }
